@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    padding:20px  120px;
+}
+.navbar-container .nav-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 16px;
+    list-style: none;
+}
+.btn{
+    background-color: #30B868;
+    color: white;
+    padding:  16px 12px;
+    font-weight: 600px;
+    border: none;
+    border-radius: 5px;
+}
