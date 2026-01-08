@@ -32,3 +32,39 @@
     border: none;
     border-radius: 5px;
 }
+.hero-container{
+    background-image: url(./images/hero-bg.png);
+}
+.hero-container .hero{
+    padding: 115px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    color: white;
+}
+.hero-container .hero .btn2{
+    border-radius: 20px;
+    color: #30B868;
+    background-color: white;
+}
+.hero-container .hero .title{
+    font-size: bold;
+    
+}
+.color-green{
+    color: #30B868;
+}
+.hero-container .hero .subtitle{
+    line-height: 24px;
+    font-size: 18px;
+}
+
+ 
+
+.btn-transparent{
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
