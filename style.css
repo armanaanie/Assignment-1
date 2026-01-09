@@ -54,11 +54,12 @@
 }
 
 
-.hero-container .hero .btn2{
+.btn2{
     border-radius: 20px;
     color: #30B868;
     background-color: white;
 }
+
 .color-green{
     color: #30B868;
 }
@@ -69,7 +70,7 @@
 }
 .btn:hover{
      box-shadow: 0px 0px 20px #626262;
-     color: #151d24;
+    
 
 }
 .main{
