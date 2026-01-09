@@ -12,6 +12,14 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+.subtitle{
+    line-height: 24px;
+    font-size: 18px;
+    color: #627382;
+}
+.title{
+    font-size: bold;}
+
 .navbar-container{
     display: flex;
     justify-content: space-around;
@@ -49,22 +57,82 @@
     color: #30B868;
     background-color: white;
 }
-.hero-container .hero .title{
-    font-size: bold;
-    
-}
 .color-green{
     color: #30B868;
 }
-.hero-container .hero .subtitle{
-    line-height: 24px;
-    font-size: 18px;
-}
-
- 
-
 .btn-transparent{
     background-color: transparent;
     border: 1px solid white;
     margin-left: 20px;
+}
+.card-container{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+  align-items: center;
+  margin-top:30px ;
+  text-align: center;
+
+}
+.card-container .cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding:  40px 120px;
+
+}
+.card-container .cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+   border: none;
+   padding: 20px;
+   box-shadow: 0px 0px 20px #626262;
+}
+.card-container .cards .card img{
+    padding: 3px;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+.card-container .cards .card h4{
+    font-weight: 600px;
+    font-size: 24px;
+}
+.banner-container .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 120px;
+}
+.banner-container .banner img{
+    max-width: 600px;
+    object-fit: cover;
+    
+}
+.banner-container .banner .banner-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.banner-container .banner .banner-info .list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.list li::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: url("images/CheckCircle.png") no-repeat center;
+  background-size: contain;
 }
