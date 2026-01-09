@@ -65,6 +65,14 @@
     border: 1px solid white;
     margin-left: 20px;
 }
+.btn:hover{
+     box-shadow: 0px 0px 20px #626262;
+     color: #151d24;
+
+}
+.main{
+    margin: 0 120px;
+}
 .card-container{
    display: flex;
    flex-direction: column;
@@ -78,7 +86,8 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding:  40px 120px;
+    margin: 50px 0;
+    
 
 }
 .card-container .cards .card{
@@ -106,7 +115,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    margin: 120px;
+   
 }
 .banner-container .banner img{
     max-width: 600px;
@@ -117,6 +126,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
 }
 .banner-container .banner .banner-info .list {
   list-style: none;
@@ -127,6 +137,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
 .list li::before {
@@ -135,4 +146,43 @@
   height: 18px;
   background: url("images/CheckCircle.png") no-repeat center;
   background-size: contain;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 70px 150px;
+    margin: 50px 0;
+    box-shadow: 0px 0px 20px #626262;
+}
+#footer{
+    background-color: #080816;
+    color: white;
+    text-align: center;
+}
+#footer .subtitle{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+#footer .main-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+#footer .main-footer .footer-info{
+    margin-right: 80px;
+}
+#footer .main-footer i{
+    width: 14px;
+    margin-right: 15px;
+}
+#footer hr{
+    margin:5px 100px;
+    color: #626262;
+}
+#footer .copyright-footer {
+    padding: 20px;
 }
